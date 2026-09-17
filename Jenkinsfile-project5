@@ -23,7 +23,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'python -m py_compile app.py'
+                bat '"C:\\Users\\kushm\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m py_compile app.py'
                 echo "${env.APP_NAME} version ${env.APP_VERSION} compiled successfully."
             }
         }
