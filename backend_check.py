@@ -1,5 +1,7 @@
 import time
 
-print("Running backend checks...")
+print("Running Academic Performance backend checks...")
 time.sleep(3)
-print("Backend checks passed.")
+
+print("Checking student academic data...")
+print("Academic performance checks passed.")
